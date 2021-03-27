@@ -1,0 +1,30 @@
+body {
+    color: #333333;
+    background-color: #C6F8E5;
+  }
+
+img.resize {
+    max-width: 4rem;
+    max-height: auto;
+}
+
+.pictureofme {
+    border-radius: 50%;
+    width: 300px;
+    height: auto;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0 4px 6px 0 rgba(34, 60, 80, 0.16);
+    transition: all ease-in-out 0.2s;
+  }
+/* media css from nwHacks web dev intro */
+  @media (min-width: 600px) {
+    .grid {
+      grid-template-columns: 50% 50%;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
